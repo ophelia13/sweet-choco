@@ -12,12 +12,12 @@
 }
 
 :root {
-  --bg: #0b0b0f;
-  --bg-2: #111118;
+  --bg: #201201;
+  --bg-2: #e06ee4;
   --bg-3: #18181f;
   --surface: #1e1e28;
-  --border: rgba(255, 255, 255, 0.07);
-  --text: #e8e6f0;
+  --border: rgb(54, 44, 36);
+  --text: #ffffff;
   --text-muted: #7a7892;
   --accent: #c8a96e;
   /* warm gold */
@@ -623,7 +623,7 @@ img {
 
 .skill-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(200, 169, 110, 0.25);
+  border-color: rgba(255, 232, 131, 0.25);
 }
 
 .skill-card:hover::before {
@@ -685,7 +685,7 @@ img {
 
 .project-card:hover {
   transform: translateY(-5px);
-  border-color: rgba(200, 169, 110, 0.25);
+  border-color: rgba(238, 226, 122, 0.25);
 }
 
 .project-card.featured {
