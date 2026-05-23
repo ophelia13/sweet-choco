@@ -13,17 +13,17 @@
 
 :root {
   --bg: #201201;
-  --bg-2: #e06ee4;
+  --bg-2: #201201;
   --bg-3: #18181f;
-  --surface: #1e1e28;
-  --border: rgb(54, 44, 36);
+  --surface: #3d2903;
+  --border: rgb(54, 38, 25);
   --text: #ffffff;
-  --text-muted: #7a7892;
+  --text-muted: #ffffff;
   --accent: #c8a96e;
   /* warm gold */
   --accent-2: #8b69d4;
   /* violet     */
-  --accent-glow: rgba(200, 169, 110, 0.18);
+  --accent-glow: rgba(255, 255, 255, 0.938);
   --radius: 14px;
   --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   --font-display: 'Playfair Display', Georgia, serif;
