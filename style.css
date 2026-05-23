@@ -12,18 +12,18 @@
 }
 
 :root {
-  --bg: #0b0b0f;
-  --bg-2: #111118;
-  --bg-3: #18181f;
-  --surface: #1e1e28;
-  --border: rgba(255, 255, 255, 0.07);
-  --text: #e8e6f0;
-  --text-muted: #7a7892;
+  --bg: #201201;
+  --bg-2: #201201;
+  --bg-3: #2c1901;
+  --surface: #3d2903;
+  --border: rgb(54, 38, 25);
+  --text: #ffffff;
+  --text-muted: #ffffff;
   --accent: #c8a96e;
   /* warm gold */
-  --accent-2: #8b69d4;
+  --accent-2: #a36943;
   /* violet     */
-  --accent-glow: rgba(200, 169, 110, 0.18);
+  --accent-glow: rgba(255, 255, 255, 0.938);
   --radius: 14px;
   --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   --font-display: 'Playfair Display', Georgia, serif;
@@ -339,7 +339,7 @@ img {
 .blob-2 {
   width: 380px;
   height: 380px;
-  background: radial-gradient(circle, rgba(139, 105, 212, 0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(185, 147, 64, 0.1) 0%, transparent 70%);
   bottom: 0;
   left: -80px;
   animation-delay: -3s;
@@ -623,7 +623,7 @@ img {
 
 .skill-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(200, 169, 110, 0.25);
+  border-color: rgba(255, 232, 131, 0.25);
 }
 
 .skill-card:hover::before {
@@ -685,7 +685,7 @@ img {
 
 .project-card:hover {
   transform: translateY(-5px);
-  border-color: rgba(200, 169, 110, 0.25);
+  border-color: rgba(238, 226, 122, 0.25);
 }
 
 .project-card.featured {
